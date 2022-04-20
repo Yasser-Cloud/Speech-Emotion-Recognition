@@ -3,4 +3,3 @@ different emotions, enabling users to record or upload customized
 voices.
 Using python libraries: Keras for Deep Learning, librosa for signal 
 processing, PyAudio for recording voices and PyQt for GUI.
-Graduation Project Grade: Excellent
