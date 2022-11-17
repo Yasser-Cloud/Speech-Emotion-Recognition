@@ -3,6 +3,9 @@
   <img src="Speech Emotion Recognition/GUI/start.png" width="700px" />
 </div>
 
+## Summary
+Recognition desktop application can categorize human voice into 6 different emotions, enabling users to record or upload customized voices. Using python libraries: Keras for Deep Learning, librosa for signal processing, PyAudio for recording voices and PyQt for GUI.
+
 ## Abstract
 Speech emotion recognition (SER) plays a significant role in many real-time applications, such as human behavior assessment, human-robot interaction, virtual reality, and emergency centers to analyze the emotional state of speakers. In this work, we employed deep learning techniques to boost the recognition accuracy of speech emotions. In specific, convolutional neural network (CNN) and long short-term memory (LSTM) were constructed in sequence to learn local and global emotion-related features from speech and log-mel spectrogram.The designed network consists of four local feature-learning blocks
 (LFLBs) and one long short-term memory (LSTM) layer. LFLB, which mainly contains one convolutional layer and one max-pooling layer, is built for learning local correlations in addition to extracting hierarchical correlations. LSTM layer is adopted to learn long-term dependencies from the learned local features. To improve overall performance of the deep network, the training dataset is augmented with additional speech utterances after adding noise at different signal-to-noise (SNR) ratios.The designed deep learning network is evaluated in terms of the IEMOCAP dataset as a benchmark. Experimental results show that the designed network achieved a significant and promising performance on the task of recognizing speech emotions. The achieved recognition accuracy is **99.30%** when tested on the speaker-dependent part of IEMOCAP dataset.
